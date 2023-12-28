@@ -1,0 +1,23 @@
+.time {
+    padding: 2rem;
+    text-align: center;
+}
+
+.time h2 {
+    font-family: var(--prata);
+    font-size: 2rem;
+    color: var(--preto);
+    padding-bottom: 0.5rem;
+}
+
+.time hr {
+    border-bottom: 4px solid black;
+    width: 2rem;
+}
+
+.colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}

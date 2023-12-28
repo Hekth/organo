@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prata&display=swap');
+
+:root {
+    /* CORES PRINCIPAIS */
+    --branco: #FFF;
+    --azul-roxo: #6278F7;
+    --verde-aqua: #95FFD4;
+    --cinza-branco: #F2F2F2;
+    --cinza-claro: #A4A4A4;
+    --preto: #212121;
+    --aqua: #95FFD4;
+    /* FONTES */
+    --montserrat: 'Montserrat', sans-serif;
+    --prata: 'Prata', serif;
+}
