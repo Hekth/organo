@@ -1,9 +1,15 @@
+.container-formulario {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem 2rem;
+}
 
 .formulario {
+    flex: 1;
     padding: 2rem 6rem;
     background-color: var(--cinza-branco);
-    max-width: 80vw;
-    margin: 5rem auto;
     border-radius: 20px;
     box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.2);
 }
@@ -12,5 +18,10 @@
     font-family: var(--prata);
     color: var(--preto);
     font-size: 2rem;
+}
+
+.container-campo input[type=color] {
+    padding: 0.5rem;
+    height: 3rem;
 }
 

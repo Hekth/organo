@@ -1,0 +1,23 @@
+.container-campo {
+    margin: 1.8rem 0;
+}
+
+.container-campo label {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-family: var(--montserrat);
+    color: var(--preto);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.container-campo input {
+    padding: 1.8rem 1.25rem;
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    color: var(--cinza-claro);
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}

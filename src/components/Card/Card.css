@@ -1,5 +1,23 @@
 .colaborador {
     width: 280px;
+    position: relative;
+}
+
+.deletar {
+    font-family: monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: var(--branco);
+    background-color: red;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.deletar:hover {
+    background-color: rgb(223, 0, 0);
 }
 
 .colaborador .cabecalho {
@@ -34,4 +52,9 @@
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
+}
+
+.icone-coracao {
+    margin-top: 0.5rem;
+    cursor: pointer;
 }
